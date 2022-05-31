@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      body {
+  background: rgb(222, 222, 222);
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation */
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #e1e074;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #88CCF1;
+}
+
+
+  </style>
+    <title>Raspberry Pi Git Web Interface</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="navigation">
+    <li>Pi Camera System</li>
+    <li>Photos</li>
+    <li>Video</li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>GitHub</a></li>
+  </ul>
+
+  <center><h2 class='destination heading-background'> Picture & Video </h2>
+    <div class='description'>This camera take both picture and video in light and dark conditions. <br> It takes photo and video apon a button press or automatic script. GitHub was used to orgaize scripting ~ <a href='https://github.com/tylerolsen191' target='_blank'>Git</a>.</center>
+      <center><div class='description'>The navigation bar includes my GitHub account that contains all the scripts used in the project, and the code for this website hosted throguth GitHub.</center>
+      <center><h5>Media</h5></center>
+      <center> 
+      <ul>
+        <li>April</li>
+        <img>
+        <li>May</li>
+        <img>
+        <li>N/A</li>
+      </ul>
+     </center>
+    </div>
+  <br>
+  <br>
+  <br>
+  <center>
+  <h2 class='destination heading-background'> Picture & Video </h2>
+    <center><div class='description'> The tools used for build this project are linked below </center>  
+    <center><div class='description'> The raspberry Pi project includes different tools to build, including: </center>
+        <center><h5>Tools</h5></center>
+        <center> 
+        <ul>
+          <li> <a href='https://docs.github.com/en' target='_blank'>GitHub</a></li>
+          <li> <a href='https://docs.aws.amazon.com/' target='_blank'>AWS</a></li>
+          <li> <a href='https://thonny.org/' target='_blank'>Thonny</a></li>
+        </ul>
+        <p>&mdash;Fresh Picture & Video taken daily!</p>
+      </center>
+      </div>
+    </center>
+</body>
+</html>
