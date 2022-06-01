@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+      body {
+  background: rgb(222, 222, 222);
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #e1e074;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  color: rgb(0, 0, 0);
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+  </style>
+    <title>Video Interface On Pi</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+  <link href="style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+  <ul class="navigation">
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Pi Camera System</a></li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Photo</a></li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Video</a></li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>GitHub</a></li>
+  </ul>
+<br>
+<center><h2 class='destination heading-background'> Video </h2></center>
+      <center><div class='description'>This Interface is soley used for showing video taken, <br> as well as past videos taken over the project lifecycle</center>
+      <center><h3>Media</h3></center>
+      <center> 
+      <ul>
+        <li>April</li>
+        <img>
+        <li>May</li>
+        <img>
+        <li>N/A</li>
+      </ul>
+     </center>
+    </div>
