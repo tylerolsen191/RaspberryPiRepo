@@ -36,27 +36,24 @@ li {
   text-transform: uppercase;
 }
 
-.active {
-  color: #88CCF1;
-}
   </style>
-    <title>Raspberry Pi Git Web Interface</title>
+    <title>Raspberry Pi Git Over view</title>
   <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
   <link href="style.css" type="text/css" rel="stylesheet">
 </head>
 <body>
 
   <ul class="navigation">
-    <li>Pi Camera System</li>
-    <li>Photos</li>
-    <li>Video</li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Pi Camera System</a></li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Photo</a></li>
+    <li> <a href='https://github.com/tylerolsen191' target='_blank'>Video</a></li>
     <li> <a href='https://github.com/tylerolsen191' target='_blank'>GitHub</a></li>
   </ul>
 
   <center><h2 class='destination heading-background'> Picture & Video </h2>
     <div class='description'>This camera take both picture and video in light and dark conditions. <br> It takes photo and video apon a button press or automatic script. GitHub was used to orgaize scripting ~ <a href='https://github.com/tylerolsen191' target='_blank'>Git</a>.</center>
       <center><div class='description'>The navigation bar includes my GitHub account that contains all the scripts used in the project, and the code for this website hosted throguth GitHub.</center>
-      <center><h5>Media</h5></center>
+      <center><h3>Media</h3></center>
       <center> 
       <ul>
         <li>April</li>
@@ -72,9 +69,8 @@ li {
   <br>
   <center>
   <h2 class='destination heading-background'> Picture & Video </h2>
-    <center><div class='description'> The tools used for build this project are linked below </center>  
-    <center><div class='description'> The raspberry Pi project includes different tools to build, including: </center>
-        <center><h5>Tools</h5></center>
+    <center><div class='description'> The resources used for build this project are linked below </center>  
+    <center><div class='description'> The raspberry Pi project includes different resources to build, including: </center>
         <center> 
         <ul>
           <li> <a href='https://docs.github.com/en' target='_blank'>GitHub</a></li>
